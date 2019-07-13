@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+.banner,
+.product {
+    width: 100%;
+    min-width: 1200px;
+    position: relative;
+}
+
+
+
+
+.banner>h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 180px;
+}
+
+.banner>p {
+    font-size: 54px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    top: 35%;
+    left: 180px;
+    position: absolute;
+    z-index: 2;
+}
+
+.banner>span {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(248, 249, 250, 1);
+    line-height: 36px;
+    top: 45%;
+    left: 180px;
+    position: absolute;
+    z-index: 2;
+}
+
+.banner>.btn {
+    width: 150px;
+    height: 40px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    top: 55%;
+    left: 180px;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 40px;
+    box-sizing: border-box;
+}
+
+* {
+    outline: none;
+}

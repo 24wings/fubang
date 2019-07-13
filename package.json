@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "initDb": "dotnet ef migrations add InitialCreate"
+    }
+}

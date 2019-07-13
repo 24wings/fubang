@@ -1,0 +1,169 @@
+{
+  "app": {
+    "name": "Alain",
+    "description": "Ng-zorro admin panel front-end framework"
+  },
+  "user": {
+    "name": "Admin",
+    "avatar": "./assets/tmp/img/avatar.jpg",
+    "email": "cipchk@qq.com"
+  },
+  "menu": [
+    {
+      "text": "系统",
+      "i18n": "系统",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "角色权限",
+          "i18n": "角色权限",
+          "icon": "anticon anticon-cloud",
+          "children": [
+            {
+              "text": "用户",
+              "link": "/rbac/user",
+              "i18n": "用户"
+            },
+            {
+              "text": "菜单",
+              "link": "/rbac/menu",
+              "i18n": "菜单"
+            },
+            {
+              "text": "角色",
+              "link": "/rbac/role",
+              "i18n": "角色"
+            }
+          ]
+        },
+        {
+          "text": "系统设置",
+          "icon": "anticon anticon-cloud",
+          "i18n": "系统设置",
+          "children": [
+            {
+              "text": "字典管理",
+              "link": "/setting/dict",
+              "i18n": "字典管理"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "首页",
+      "i18n": "首页",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "导航菜单",
+          "link": "/content/website-menu",
+          "i18n": "导航菜单",
+          "icon": "anticon anticon-cloud"
+        },
+        {
+          "text": "Banner管理",
+          "link": "/content/banner",
+          "i18n": "Banner管理",
+          "icon": "anticon anticon-cloud"
+        },
+        {
+          "text": "产业布局",
+          "link": "/setting/point",
+          "i18n": "产业布局",
+          "icon": "anticon anticon-cloud"
+        }
+      ]
+    },
+    {
+      "text": "新闻",
+      "i18n": "新闻",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "新闻管理",
+          "i18n": "新闻管理",
+          "link": "/news/article",
+          "icon": "anticon anticon-cloud"
+        }
+      ]
+    },
+    {
+      "text": "产品",
+      "i18n": "产品",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "产品解决方案",
+          "link": "/content/product-resolve",
+          "i18n": "产品解决方案",
+          "icon": "anticon anticon-cloud"
+        },
+        {
+          "text": "产品列表",
+          "i18": "产品列表",
+          "link": "/content/product",
+          "icon": "anticon anticon-cloud"
+        }
+      ]
+    },
+    {
+      "text": "企业信息",
+      "i18n": "企业信息",
+      "group": true,
+      "hideInBreadcrumb": true,
+      "children": [
+        {
+          "text": "公司基本信息",
+          "link": "/rbac/company",
+          "i18n": "公司基本信息"
+        },
+        {
+          "text": "企业荣誉",
+          "link": "/content/honor",
+          "i18n": "企业荣誉",
+          "icon": "anticon anticon-cloud"
+        },
+        {
+          "text": "团队介绍",
+          "i18n": "团队介绍",
+          "icon": "anticon anticon-cloud",
+          "children": [
+            {
+              "text": "团队简介",
+              "link": "/content/team-summary"
+            },
+            {
+              "text": "核心成员",
+              "link": "/content/team-member"
+            },
+            {
+              "text": "核心团队",
+              "link": "/content/team"
+            }
+          ]
+        },
+        {
+          "text": "公司风貌",
+          "link": "/content/company-face",
+          "icon": "anticon anticon-cloud"
+        },
+        {
+          "text": "招聘专栏",
+          "link": "/content/job",
+          "icon": "anticon anticon-cloud"
+        },
+        {
+          "text": "合作伙伴",
+          "link": "/content/partner",
+          "i18n": "合作伙伴",
+          "icon": "anticon anticon-cloud"
+        }
+      ]
+    }
+  ]
+}

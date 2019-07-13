@@ -1,0 +1,54 @@
+ "children": [
+            {
+              "text": "文章管理",
+              "link": "/news/article",
+              "i18n": "文章管理"
+            },
+            {
+              "text": "素材管理",
+              "link": "/content/material",
+              "i18n": "素材管理"
+            },
+            {
+              "text": "合作伙伴",
+              "link": "/content/partner",
+              "i18n": "合作伙伴"
+            },
+            {
+              "text": "产品解决方案",
+              "link": "/content/product-resolve",
+              "i18n": "产品解决方案"
+            },
+            {
+              "text": "荣誉管理",
+              "link": "/content/honor",
+              "i18n": "荣誉管理"
+            }
+          ]
+
+
+          {
+          "text": "企业信息",
+          "i18n": "企业信息",
+          "children": [
+            {
+              "text": "团队",
+              "link": "/content/team"
+            },
+            {
+              "text": "团队成员",
+              "link": "/content/team-member"
+            },
+            {
+              "text": "公司面貌",
+              "link": "/content/company-face"
+            },
+            {
+              "text": "招聘",
+              "link": "/content/job"
+            },
+            {
+              "text": "产品",
+              "link": "/content/product"
+            }
+          ]
